@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cupcake Blog</title>
+    <link rel="stylesheet"href="blog.css"/>
+  </head>
+
+  <body>
+    <h1>Cupcakes are Delicious</h1>
+    <h5>November 27, 2017 by Brittney Roundtree</h5>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+
+<div>
+    <img src= "img/marsh.jpg"/>
+    <p>Chocolate marshmallow chocolate bar pastry gingerbread. Icing cheesecake marzipan fruitcake ice cream chocolate chupa chups bear claw tiramisu. Marzipan lollipop wafer tart cotton candy jelly-o. Cake cake muffin jelly-o tart candy canes. Gingerbread cake cheesecake sweet wafer biscuit. Brownie sesame snaps croissant. Dragée cake ice cream wafer. Chupa chups fruitcake sugar plum jelly beans. Powder gummies jelly beans lemon drops. Danish soufflé gummi bears pudding cupcake gummies cake wafer. Chupa chups sesame snaps marzipan jujubes sweet roll candy brownie caramels. Lemon drops croissant halvah lollipop biscuit jelly. Cotton candy tiramisu cupcake chocolate.</p>
+
+      <img src= "img/sweet_roll.jpg" style="height:500px"/>
+      <p>Chocolate cupcake marshmallow cake pie icing cake sweet roll. Jelly tart danish lollipop. Biscuit wafer sugar plum tootsie roll icing toffee biscuit. Brownie croissant topping donut jelly-o. Muffin croissant tart sweet gummi bears. Gummies dessert donut pudding chupa chups bear claw apple pie danish. Jelly jelly cookie tootsie roll chocolate cake chocolate bear claw sesame snaps. Croissant chocolate bar powder sweet soufflé caramels sweet gummi bears. Chupa chups muffin chupa chups. Gingerbread gingerbread tart pudding ice cream marshmallow. Donut gummies danish chupa chups. Biscuit muffin soufflé ice cream gingerbread fruitcake jelly beans cupcake fruitcake. Gummies marzipan sugar plum chocolate dessert bonbon muffin cupcake. Cookie topping chocolate cake macaroon lollipop.</p>
+
+          <img src= "img/jb_cupcake.jpg"style="width:300px;height:200px"/>
+          <p>Chocolate bar jelly beans sugar plum jujubes candy ice cream chocolate bonbon. Lemon drops pudding tiramisu powder macaroon oat cake lemon drops. Marshmallow gummies soufflé pie gummi bears. Chupa chups gummies pudding sesame snaps danish. Cookie lemon drops apple pie sesame snaps. Macaroon icing lollipop jelly. Dessert apple pie cheesecake pastry wafer. Sugar plum brownie cookie gummies. Tootsie roll dragée pastry cupcake toffee tiramisu. Pie biscuit candy canes muffin lemon drops. Jelly-o dragée tart candy. Muffin donut cupcake carrot cake candy canes bear claw tart. Marzipan apple pie candy cotton candy jelly cheesecake tart. Cheesecake icing soufflé wafer cookie lollipop bear claw lemon drops.</p>
+
+</div>
+    <h2>
+  Thank you for visiting my page!!
+</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+
+<form>
+<textarea id="words" rows="10" cols="70">Enter comment</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
+
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = "enter"
+}
+</script>
+
+  </body>
+</html>
